@@ -1,5 +1,5 @@
-# tvchan_sorter
-Download your channel list from your not-so-smart TV, and sort your channels on excel (CSV). This is a Python script to convert to/from the native TLL format (which is basically XML).
+# TV Channel Sorter
+Download your channel list from your smart TV (you should find this feature in the channel configuration menu). Then you can sort your channels on your spreadsheet editor (CSV). This is a Python script to convert to/from the native TLL format (which is basically XML).
 Usage: 
 - Export channel list from TV. 
 - Extract list from xml using ```python3 tll_channels.py export GlobalClone00001.TLL channels.csv```
